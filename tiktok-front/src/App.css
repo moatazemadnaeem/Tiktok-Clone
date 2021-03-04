@@ -1,0 +1,21 @@
+
+.app{
+    position: relative;
+    height:700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.app__video{
+    position: relative;
+    max-height: 600px;
+    max-width: 400px;
+    border-radius: 20px;
+    overflow: scroll;
+  
+
+}
+.app__video::-webkit-scrollbar{
+    display: none;
+}
